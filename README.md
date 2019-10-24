@@ -9,7 +9,7 @@
 
 Cucumber script [/src/test/resources/userStory.feature](https://github.com/AndyTomicki/TNTask/blob/master/src/test/resources/userStory.feature) can be edited to change data provided, like number of team members, their names and roles. Additional data can be added to the data table.
 
-If any of the test steps fail, the whole test case will break and on that step.
+If any of the test steps fail, the whole test case will break and stop on that step.
 This is only simple run-once test suite, no reporting is provided at the moment.
 
 Test suite uses selenium webdriver for Chrome 78, Java 8.
